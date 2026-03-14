@@ -408,5 +408,41 @@
       "otp": "123456",
       "createdAt": "2025-01-01T10:00:00.000Z"
     }
-  ]
+  ],
+  "beats": [
+    { "id": "1", "title": "Confession", "genre": "Trap", "mood": "Dark", "bpm": 140, "price": 19000, "tag": "Hot", "audioUrl": "/beats/CONFESSION prod by Montana beats.mp3", "duration": 0 },
+    { "id": "2", "title": "Lagos Vibes", "genre": "Afro", "mood": "Happy", "bpm": 108, "price": 25500, "tag": "New", "audioUrl": "/beats/Montana beatz AFRO AL JAANA.mp3", "duration": 0 },
+    { "id": "3", "title": "Pyramide", "genre": "Trap", "mood": "Hard", "bpm": 140, "price": 25500, "tag": "Hot", "audioUrl": "/beats/'' PYRAMIDE'' Trap type beat by Montana beats.mp3", "duration": 0 },
+    { "id": "4", "title": "MY WAY", "genre": "Trap", "mood": "Dark", "bpm": 92, "price": 23000, "tag": "", "audioUrl": "/beats/'' MY WAY '' MELANCOLIE TYPE BEAT by Montana beats.mp3", "duration": 0 },
+    { "id": "5", "title": "MURDA", "genre": "Trap", "mood": "Hard", "bpm": 138, "price": 25500, "tag": "Hot", "audioUrl": "/beats/Trap Type beat '' MURDA ''prod by Montana beats.mp3", "duration": 0 },
+    { "id": "6", "title": "WARRIOR", "genre": "Trap", "mood": "Hard", "bpm": 142, "price": 25500, "tag": "", "audioUrl": "/beats/Trap Type beat '' WARRIOR ''  prod by Montana beats.mp3", "duration": 0 },
+    { "id": "7", "title": "Stoner Vibes", "genre": "Trap", "mood": "Smooth", "bpm": 95, "price": 23000, "tag": "New", "audioUrl": "/beats/INSTRUMENTAL 3.mp3", "duration": 0 },
+    { "id": "8", "title": "Sad Love", "genre": "Trap", "mood": "Dark", "bpm": 88, "price": 23000, "tag": "", "audioUrl": "/beats/Sad LOVE type beat prod by Montana beats.mp3", "duration": 0 },
+    { "id": "9", "title": "Senorita", "genre": "RnB", "mood": "Smooth", "bpm": 92, "price": 25500, "tag": "Exclu", "audioUrl": "/beats/SENORITA prod by Montana Beats.mp3", "duration": 0 },
+    { "id": "10", "title": "DOUBLE FUCK", "genre": "Trap", "mood": "Hard", "bpm": 140, "price": 25500, "tag": "Hot", "audioUrl": "/beats/Montana ''DOUBLE FUCK'' trap type beat 2025.mp3", "duration": 0 },
+    { "id": "11", "title": "Astro Boy", "genre": "Drill", "mood": "Hard", "bpm": 145, "price": 25500, "tag": "New", "audioUrl": "/beats/Montana beats '' Astro Boy '' Drill type 2025 (1).mp3", "duration": 0 },
+    { "id": "12", "title": "FIRE", "genre": "Trap", "mood": "Hard", "bpm": 138, "price": 25500, "tag": "Hot", "audioUrl": "/beats/Montana beats '' FIRE '' Trap type beat 2025 (1).mp3", "duration": 0 },
+    { "id": "13", "title": "Sad", "genre": "Trap", "mood": "Dark", "bpm": 92, "price": 23000, "tag": "", "audioUrl": "/beats/Montana beats '' Sad '' Trap emotional 2025 (1).mp3", "duration": 0 },
+    { "id": "14", "title": "Instrumental Hip Hop", "genre": "Trap", "mood": "Smooth", "bpm": 90, "price": 23000, "tag": "", "audioUrl": "/beats/Instrumental hip hop prod by Montana beats.mp3", "duration": 0 },
+    { "id": "15", "title": "Instrumental Hip Hop 2", "genre": "Trap", "mood": "Smooth", "bpm": 88, "price": 23000, "tag": "", "audioUrl": "/beats/Instrumental Hiphop prod by Montana beats.mp3", "duration": 0 }
+  ],
+  "formations": [
+    { "id": "1", "title": "Beatmaking Fondamentaux", "subtitle": "Commencez votre carrière de producteur", "level": "Débutant", "duration": "8 semaines", "sessions": "16 sessions", "price": "196 000 FCFA", "color": "#E40B18", "icon": "Music", "result": "Produire vos premiers beats professionnels", "modules": ["Présentation du DAW (FL Studio / Ableton)", "Théorie musicale pour beatmakers", "Création de drums et basses", "Sampling et sound design", "Arrangement et structure", "Export et finalisation"], "students": 124, "rating": 4.9 },
+    { "id": "2", "title": "Mix & Mastering Pro", "subtitle": "Donnez un son professionnel à vos projets", "level": "Intermédiaire", "duration": "6 semaines", "sessions": "12 sessions", "price": "262 000 FCFA", "color": "#9b59b6", "icon": "Sliders", "result": "Mixer et masteriser comme un ingénieur du son", "modules": ["Fondamentaux du mixage", "EQ, compression et dynamique", "Réverb, delay et effets spatiaux", "Automations et transitions", "Mastering pour les plateformes", "Analyse et A/B Testing"], "students": 89, "rating": 4.8 },
+    { "id": "3", "title": "Production Avancée", "subtitle": "Développez votre identité sonore unique", "level": "Avancé", "duration": "12 semaines", "sessions": "24 sessions", "price": "393 000 FCFA", "color": "#3498db", "icon": "Zap", "result": "Créer une discographie artistique cohérente", "modules": ["Direction artistique et identité sonore", "Production pour artistes (Trap, Afro, Drill)", "Techniques avancées de sound design", "Gestion de projet et workflow pro", "Négociation et licences musicales", "Lancement et monétisation"], "students": 56, "rating": 5 },
+    { "id": "4", "title": "Recording & Vocal Coach", "subtitle": "Maîtrisez l'art de l'enregistrement vocal", "level": "Tous niveaux", "duration": "4 semaines", "sessions": "8 sessions", "price": "131 000 FCFA", "color": "#2ecc71", "icon": "Mic2", "result": "Enregistrer des vocals d'artiste professionnels", "modules": ["Techniques d'enregistrement vocal", "Configuration micro et acoustique", "Correction de hauteur (Autotune / Melodyne)", "Harmonies et arrangements vocaux", "Performance en studio", "Workflow avec les artistes"], "students": 147, "rating": 4.9 }
+  ],
+  "team": [
+    { "id": "1", "name": "Montana beatz", "role": "Fondateur & Directeur Artistique", "bio": "6 ans d'expérience en production musicale.", "icon": "Music", "color": "#E40B18" },
+    { "id": "2", "name": "Lyriix beatz", "role": "Beatmaker", "bio": "Spécialiste Drill et Trap, Mix & Mastering. Référence dans le milieu R&B et Afro-trap.", "icon": "Music", "color": "#9b59b6" },
+    { "id": "3", "name": "ZEN", "role": "Ingénieur de son", "bio": "Beatmaker certifié avec des placements sur plusieurs projets gold.", "icon": "Sliders", "color": "#FFC107" }
+  ],
+  "licenses": [
+    { "id": "1", "name": "Basic", "price": "19 000 FCFA", "desc": "MP3 · Usage non-commercial", "color": "#aaa" },
+    { "id": "2", "name": "Premium", "price": "52 000 FCFA", "desc": "WAV + Stems · 10 000 streams", "color": "#E40B18" },
+    { "id": "3", "name": "Exclusive", "price": "196 000 FCFA", "desc": "Droits exclusifs complets", "color": "#FFC107" }
+  ],
+  "orders": [],
+  "reservations": [],
+  "enrollments": []
 }
