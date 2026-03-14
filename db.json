@@ -1,0 +1,412 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "role": "admin",
+      "name": "Administrateur TEKKET",
+      "email": "admin@tekket.sn",
+      "phone": "+221 77 000 00 00",
+      "password": "admin123",
+      "balance": 0,
+      "balanceVisible": false,
+      "address": "Almadies",
+      "city": "Dakar",
+      "birthDate": "1985-01-01",
+      "idNumber": "ADMIN001",
+      "cniRecto": null,
+      "cniVerso": null,
+      "selfie": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "role": "client",
+      "name": "Fallou NDIAYE",
+      "email": "fallou.ndiaye@email.com",
+      "phone": "+221 77 123 45 67",
+      "password": "password123",
+      "balance": 15000000,
+      "balanceVisible": false,
+      "address": "123 Rue de la Paix",
+      "city": "Dakar",
+      "birthDate": "1990-05-15",
+      "idNumber": "CNI123456789",
+      "cniRecto": "/uploads/b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11-cniRecto.jpg",
+      "cniVerso": "/uploads/b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11-cniVerso.jpg",
+      "selfie": "/uploads/b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11-selfie.jpg",
+      "status": "SUSPENDED"
+    },
+    {
+      "id": "c1a7f48b-02e0-4c8e-9c0a-1f7c0f39a2b2",
+      "role": "client",
+      "name": "Awa DIOP",
+      "email": "awa.diop@email.com",
+      "phone": "+221 77 987 65 43",
+      "password": "password456",
+      "balance": 4200000,
+      "balanceVisible": false,
+      "address": "56 Avenue Blaise Diagne",
+      "city": "Dakar",
+      "birthDate": "1994-10-02",
+      "idNumber": "CNI987654321",
+      "cniRecto": null,
+      "cniVerso": null,
+      "selfie": null,
+      "status": "NON_ACTIVE"
+    },
+    {
+      "id": "user-1771465882125-87o1wwa",
+      "name": "Amy Diop",
+      "email": "amy@gmail.com",
+      "phone": "778012731",
+      "password": "password123",
+      "address": "Dakar",
+      "city": "Dakar",
+      "birthDate": "2000-02-01",
+      "idNumber": "1234567890987",
+      "role": "client",
+      "balance": 0,
+      "balanceVisible": false,
+      "cniRecto": null,
+      "cniVerso": null,
+      "selfie": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "user-1771799163269-s1v00gq",
+      "name": "Aissatou Danfakha",
+      "email": "aicha@gmail.com",
+      "phone": "777777777",
+      "password": "password123",
+      "address": "Dakar",
+      "city": "Thies",
+      "birthDate": "2001-01-03",
+      "idNumber": "1111111111111",
+      "role": "client",
+      "balance": 0,
+      "balanceVisible": false,
+      "cniRecto": null,
+      "cniVerso": null,
+      "selfie": null,
+      "status": "ACTIVE"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "a9b06f9e-6e3c-4fb2-bc9a-7a3e4d6f1c01",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "type": "epargne",
+      "name": "Epargne",
+      "date": "06/01/2025 à 16h30",
+      "amount": 50000,
+      "icon": "piggy-bank"
+    },
+    {
+      "id": "b4f1e2d3-9b6a-4b7c-8c2d-1a2b3c4d5e6f",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "type": "tontine",
+      "name": "Tontine Curé Grand Dakar",
+      "date": "07/01/2025 à 16h31",
+      "amount": 100000,
+      "icon": "users"
+    },
+    {
+      "id": "c7d8e9f0-1a2b-4c3d-8e9f-0a1b2c3d4e5f",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "type": "retrait",
+      "name": "Retrait",
+      "date": "08/01/2025 à 16h32",
+      "amount": -150000,
+      "icon": "wallet"
+    },
+    {
+      "id": "d1e2f3a4-5b6c-7d8e-9f0a-1b2c3d4e5f60",
+      "userId": "c1a7f48b-02e0-4c8e-9c0a-1f7c0f39a2b2",
+      "type": "voyage",
+      "name": "Voyage Groupé",
+      "date": "09/01/2025 à 16h33",
+      "amount": 250000,
+      "icon": "plane"
+    },
+    {
+      "id": "e5f6a7b8-9c0d-4e1f-8a2b-3c4d5e6f7a80",
+      "userId": "c1a7f48b-02e0-4c8e-9c0a-1f7c0f39a2b2",
+      "type": "microfinance",
+      "name": "Microfinance",
+      "date": "10/01/2025 à 16h34",
+      "amount": 300000,
+      "icon": "banknote"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "f1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6c",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "title": "Paiement reçu",
+      "message": "Votre épargne a été effectué.",
+      "date": "01 janvier 2025",
+      "read": true,
+      "icon": "/icons/notification.svg"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "title": "Rappel de paiement",
+      "message": "Votre tontine a été mis à jour.",
+      "date": "02 janvier 2025",
+      "read": true,
+      "icon": "/icons/notification.svg"
+    },
+    {
+      "id": "b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
+      "userId": "c1a7f48b-02e0-4c8e-9c0a-1f7c0f39a2b2",
+      "title": "Nouveau service",
+      "message": "Votre service a été confirmé.",
+      "date": "03 janvier 2025",
+      "read": true,
+      "icon": "/icons/notification.svg"
+    }
+  ],
+  "tontines": [
+    {
+      "id": "ton-001",
+      "name": "Tontine Curé Grand Dakar",
+      "description": "Tontine communautaire organisee pour financer des besoins familiaux et projets locaux a Grand Dakar.",
+      "startDate": "2026-01-05",
+      "endDate": "2026-12-20",
+      "amountToPay": 10000,
+      "drawIntervalDays": 7,
+      "totalAmountPaid": 240000,
+      "contributionFrequency": "semaine",
+      "state": "en_cours",
+      "tontineType": "public",
+      "membersCount": 25
+    },
+    {
+      "id": "ton-002",
+      "name": "Tontine Marché HLM",
+      "description": "Tontine de commercants du marche HLM avec cycle court pour renforcer la tresorerie quotidienne.",
+      "startDate": "2026-04-01",
+      "endDate": "2026-09-30",
+      "amountToPay": 2000,
+      "drawIntervalDays": 1,
+      "totalAmountPaid": 128000,
+      "contributionFrequency": "jour",
+      "state": "en_cours",
+      "tontineType": "public",
+      "membersCount": 18
+    },
+    {
+      "id": "ton-003",
+      "name": "Tontine Keur Massar Femmes",
+      "description": "Tontine mensuelle orientee entrepreneuriat feminin avec rotation de gains et entraide solidaire.",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "amountToPay": 30000,
+      "drawIntervalDays": 30,
+      "totalAmountPaid": 960000,
+      "contributionFrequency": "mois",
+      "state": "en_fin",
+      "tontineType": "public",
+      "membersCount": 32
+    },
+    {
+      "id": "ton-004",
+      "name": "Tontine EcolePointE",
+      "description": "Tontine pour les parents d'eleves de l'ecole PointE. Contributions mensuelles pour soutenir les frais scolaries.",
+      "startDate": "2026-03-01",
+      "endDate": "2027-02-28",
+      "amountToPay": 15000,
+      "drawIntervalDays": 30,
+      "totalAmountPaid": 0,
+      "contributionFrequency": "mois",
+      "state": "en_attente",
+      "tontineType": "prive",
+      "membersCount": 15
+    },
+    {
+      "id": "ton-005",
+      "name": "Tontine Salif Diongoma",
+      "description": "Tontine hebdomadaire du quartier Salif Diongoma pour les depenses communautaires.",
+      "startDate": "2026-03-15",
+      "endDate": "2026-09-14",
+      "amountToPay": 5000,
+      "drawIntervalDays": 7,
+      "totalAmountPaid": 0,
+      "contributionFrequency": "semaine",
+      "state": "en_attente",
+      "tontineType": "public",
+      "membersCount": 20
+    },
+    {
+      "id": "ton-006",
+      "name": "Tontine Journaliere Medina",
+      "description": "Tontine journaliere pour les commercants du marche de la Medina.",
+      "startDate": "2026-03-10",
+      "endDate": "2026-04-09",
+      "amountToPay": 1000,
+      "drawIntervalDays": 1,
+      "totalAmountPaid": 0,
+      "contributionFrequency": "jour",
+      "state": "en_attente",
+      "tontineType": "public",
+      "membersCount": 30
+    },
+    {
+      "id": "ton-007",
+      "name": "Tontine Entrepreneurs Dakar",
+      "description": "Tontine mensuelle pour les jeunes entrepreneurs de Dakar.",
+      "startDate": "2026-04-01",
+      "endDate": "2027-03-31",
+      "amountToPay": 50000,
+      "drawIntervalDays": 30,
+      "totalAmountPaid": 0,
+      "contributionFrequency": "mois",
+      "state": "en_attente",
+      "tontineType": "prive",
+      "membersCount": 12
+    },
+    {
+      "id": "ton-1772124138077",
+      "name": "essayons un tontine",
+      "description": "teste 1",
+      "startDate": "2026-03-12",
+      "endDate": "2027-02-26",
+      "amountToPay": 10000,
+      "contributionFrequency": "jour",
+      "state": "en_attente",
+      "totalAmountPaid": 0,
+      "membersCount": 0
+    },
+    {
+      "id": "ton-1772143728288",
+      "name": "TONTINE DE CRISTIEN",
+      "description": "TEST DU CONTINE DE CRI....",
+      "startDate": "2026-03-20",
+      "endDate": "2026-05-20",
+      "amountToPay": 100000,
+      "contributionFrequency": "jour",
+      "state": "en_attente",
+      "totalAmountPaid": 0,
+      "membersCount": 0
+    },
+    {
+      "id": "ton-1772144051889",
+      "name": "TONTIN DE FALLOU",
+      "description": "SDFGHJKLKFVHGGH",
+      "startDate": "2026-03-01",
+      "endDate": "2026-09-01",
+      "amountToPay": 100000,
+      "contributionFrequency": "jour",
+      "state": "en_attente",
+      "totalAmountPaid": 0,
+      "membersCount": 0
+    },
+    {
+      "id": "ton-1772215560875",
+      "name": "PRIVER TONTINE",
+      "description": "SUGNU TONTINE TEST",
+      "startDate": "2026-10-03",
+      "endDate": "2027-03-10",
+      "amountToPay": 200000,
+      "contributionFrequency": "semaine",
+      "tontineType": "prive",
+      "state": "en_attente",
+      "totalAmountPaid": 0,
+      "membersCount": 1
+    },
+    {
+      "id": "ton-1772535181607",
+      "name": "odc",
+      "description": "hufrefklerkrlfmekmlre",
+      "startDate": "2026-10-03",
+      "endDate": "2027-03-10",
+      "amountToPay": 100000,
+      "contributionFrequency": "semaine",
+      "tontineType": "prive",
+      "state": "en_attente",
+      "totalAmountPaid": 0,
+      "membersCount": 1
+    }
+  ],
+  "userTontines": [
+    {
+      "id": "ut-001",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-001",
+      "joinedAt": "2026-01-05T10:00:00.000Z",
+      "role": "participant"
+    },
+    {
+      "id": "ut-002",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-002",
+      "joinedAt": "2026-04-01T10:00:00.000Z",
+      "role": "participant"
+    },
+    {
+      "id": "ut-003",
+      "userId": "c1a7f48b-02e0-4c8e-9c0a-1f7c0f39a2b2",
+      "tontineId": "ton-003",
+      "joinedAt": "2025-01-01T10:00:00.000Z",
+      "role": "participant"
+    },
+    {
+      "id": "4cc8",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-006",
+      "joinedAt": "2026-02-18T17:03:34.770Z",
+      "role": "participant"
+    },
+    {
+      "id": "fbd9",
+      "userId": "user-1771465882125-87o1wwa",
+      "tontineId": "ton-004",
+      "joinedAt": "2026-02-22T22:47:30.409Z",
+      "role": "participant"
+    },
+    {
+      "id": "423e",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-004",
+      "joinedAt": "2026-02-26T22:07:07.303Z",
+      "role": "participant"
+    },
+    {
+      "id": "7ac0",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-1772143728288",
+      "joinedAt": "2026-02-26T22:09:06.955Z",
+      "role": "participant"
+    },
+    {
+      "id": "0aed",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-1772144051889",
+      "joinedAt": "2026-02-26T22:14:44.393Z",
+      "role": "participant"
+    },
+    {
+      "id": "cfc6",
+      "userId": "user-1771465882125-87o1wwa",
+      "tontineId": "ton-1772215560875",
+      "joinedAt": "2026-02-27T18:47:23.219Z",
+      "role": "participant"
+    },
+    {
+      "id": "a6f1",
+      "userId": "b0d2a0a2-7f5c-4a2f-9b5f-8a2f8f3f1a11",
+      "tontineId": "ton-1772535181607",
+      "joinedAt": "2026-03-03T10:53:33.952Z",
+      "role": "participant"
+    }
+  ],
+  "otpRequests": [
+    {
+      "id": "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+      "contact": "fallou.ndiaye@email.com",
+      "otp": "123456",
+      "createdAt": "2025-01-01T10:00:00.000Z"
+    }
+  ]
+}
