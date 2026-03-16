@@ -442,7 +442,9 @@
     { "id": "2", "name": "Premium", "price": "52 000 FCFA", "desc": "WAV + Stems · 10 000 streams", "color": "#E40B18" },
     { "id": "3", "name": "Exclusive", "price": "196 000 FCFA", "desc": "Droits exclusifs complets", "color": "#FFC107" }
   ],
-  "orders": [],
+   "orders": [],
   "reservations": [],
-  "enrollments": []
+  "enrollments": [],
+  "messages": []
 }
+
